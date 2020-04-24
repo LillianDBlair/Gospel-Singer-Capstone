@@ -1,7 +1,7 @@
 # **This is Some of the Projects I will be working on!**
 
 
-## **1. Capstone "_Gospel Event Singer: Promoting Myself_"**
+## **1. Capstone "_Gospel-Singer-Capstone: Promoting Myself_"**
   Homework - Week 1
 
     1. Determine what your project will be

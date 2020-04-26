@@ -44,7 +44,11 @@
 
                 2. https://www.dropbox.com/pri/get/Me%20Singing/pav-5C2CE1001.3gp?_subject_uid=301611874&w=AACCw2KS3sx11hC8Ujb4G5MRl1QdPP6F-lHlkx0nyly_UQ
 
-                3.https://www.dropbox.com/preview/Camera%20Uploads/Me%20singing.mp4?role=personal
+                3. https://www.dropbox.com/preview/Camera%20Uploads/Me%20singing.mp4?role=personal
+
+
+                4. <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmichael.fowler.3152%2Fvideos%2F10207348781142706%2F&show_text=0&width=267" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+
 
              Pictures
 

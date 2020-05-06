@@ -58,7 +58,7 @@
 
                 3.  <img src="https://b9bfjq.bn.files.1drv.com/y4mEVS1prOMIxImDGJCMoH5D9ZtvtKmR0l7dgDk0umJHEib22YmyxT2OngRXbKEka6vVThM3_FUNLUo0otjYch47K2lTXeBCCw7ROYOP6_Ph1e79TH2lN34kbEtY_ITUd8gQrsguTzUEhuVz-aKBzr_jYvSrKxzJ4xy10WSeqYm3eiuGv-RAX76vkeId8hLGLQRXI4rpBv2hP98_eK0esvWSg?width=640&height=640&cropmode=none" width="640" height="640" />
 
-                4.
+                4.https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.publicdomainfiles.com%2Fshow_file.php%3Fid%3D13939431023664&psig=AOvVaw2JFMvOeIJNlPmiYhsfC37l&ust=1588824881846000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCu0IywnukCFQAAAAAdAAAAABAJ
 
 
              Audio Files
@@ -100,9 +100,19 @@
 
           2. Estimate effort (in hours)
 
+  **Completed**
+
     4. Start Development
 
-  **Due next week, share the link to the Kanban board with all details in stories and tasks.
+  **Due next week, share the link to the Kanban board with all details in stories and tasks.**
 
-## **2. Jozeyz Hand Made Craftz**
+
+## **2.I Love Yorkie's**
+
+    1. Think of things I can do to make it better!
+
+    2. Make the changes to this Website as needed!
+
+
+## **3. Jozeyz Hand Made Craftz**
 

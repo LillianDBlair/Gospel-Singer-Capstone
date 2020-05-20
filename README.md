@@ -103,11 +103,12 @@
   **Completed**
 
     4. Start Development
+    **Started**
 
   **Due next week, share the link to the Kanban board with all details in stories and tasks.**
 
 
-## **2.I Love Yorkie's**
+## **2. I Love Yorkie's**
 
     1. Think of things I can do to make it better!
 

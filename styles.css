@@ -128,4 +128,19 @@ form {
   font-size: 20px;
 }
 
+.vimeo-wrapper{
 
+  width:25%
+
+}
+
+.vimeo-video-1{
+ float: right;
+ width:50%;
+}
+
+
+.vimeo-video-2 {
+ float:right;
+ width:50%;
+}

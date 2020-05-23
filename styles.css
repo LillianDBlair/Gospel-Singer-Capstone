@@ -41,7 +41,6 @@ html, body {
 #main {
   overflow: auto;
   padding-bottom: 15px;
-
 }
 
 .Sameline {
@@ -52,12 +51,10 @@ html, body {
   }
 
 #media {
-
   font-size:larger;
 }
 
 #forms {
-
   font-size: larger;
 }
 
@@ -69,12 +66,13 @@ html, body {
   margin-top: 10px;
   text-align: left                                            ;
   clear: both;
-
 }
+
 body {
   background-color: #7f607c;
   text-align: center;
   }
+
   h4 {
     color: black;
     text-align: center;
@@ -128,23 +126,16 @@ form {
   font-size: 20px;
 }
 
-.vimeo-wrapper{
-
-  width:25%
-
-}
-
-.vimeo-video-1{
- float: right;
- width:50%;
-}
-
-
-.vimeo-video-2 {
- float:right;
- width:50%;
-}
-
 h5 {
   padding-bottom: 2.5em;
+}
+
+video {
+  display: flex; on flex
+  flex-direction: row; on
+  align-items: stretch; on
+}
+
+form {  
+  padding-bottom: 10em;
 }

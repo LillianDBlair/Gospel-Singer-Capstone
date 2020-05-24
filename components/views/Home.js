@@ -1,4 +1,4 @@
-export defaul () => `
+export default () => `
 <div id="container">
     <div id="main">
 

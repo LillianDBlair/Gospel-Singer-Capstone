@@ -6,7 +6,7 @@ export default () => `
     <p class="center" style="font-size: 20px;">or if you would like to leave a prayer request.</p>
 
   
-  <form action="https://formspree.io/xlepjepg" method="POST" action="/action_page.php">
+  <form  name="contact-form" action="https://formspree.io/xlepjepg" method="POST" action="/action_page.php">
 
       <label for="fname">First name:</label>
       <input type="text" id="fname" name="fname"><br>

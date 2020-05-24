@@ -1,10 +1,7 @@
 import * as views from "./views";
 
-export default () => `
+export default st => `
 <main>
-    ${views.Home()}
-    ${views.Contactme()}
-    ${views.Media()}
-    ${views.Forms()}
+    ${views[st.view]()}
 </main>
 `

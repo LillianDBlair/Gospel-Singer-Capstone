@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "parcel index.html",
-    "build": "parcel index.html && cp _redirects ./dist/"
+    "parcel-build": "parcel index.html && cp _redirects ./dist/"
   },
   "keywords": [],
   "author": "",

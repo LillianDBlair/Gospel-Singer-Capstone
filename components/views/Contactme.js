@@ -17,7 +17,7 @@ export default () => `
       <label for="subject">Subject:</label>
       <input type="subject" id="subject" name="subject"><br><br>
       <label for="Message" style="text-align: left;">Message</label><br>
-      <textarea id="Event Info"  placeholder="Type Name,Date and Time of Event Here" rows="4" cols="50"></textarea>
+      <textarea id="message"  placeholder="Message" rows="4" cols="50"></textarea>
   <br><br>
   <div style="text-align:center">  
     <input type="button" value="Submit" id="btnsubmit" onclick="submitForm()"> 

@@ -1,8 +1,8 @@
-export default => `
+export default links => `
 <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Contact Me</a></li>
+<i class="fas fa-bars"></i>
+    <ul class="hidden--mobile nav-links">
+      ${links.map(link => `<li><a href="#">${link}</a><li>`).join("")}
     </ul>
   </nav>
-`
+`;

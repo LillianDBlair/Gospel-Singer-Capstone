@@ -1,33 +1,45 @@
 import { Header, Nav, Main, Footer } from "./components";
 
 import * as state from "./store";
+import { doc } from "prettier";
 
 
-const render = (st) => {
+const render = (st = state.Home) => {
     document.querySelector("#root").innerHTML = `
-    ${Header()}
-    ${Nav()}
+    ${Header(st)}
+    ${Nav(state.Links)}
     ${Main(st)}
     ${Footer()}
     `;
     
-    addNavListeners();
+    addNavEventListeners();
 };
 
 render(state.Home);
 
 //nav links event listener
-function addNavListeners () {
-    document.querySelectorAll("nav a").forEach(el => {
-    el.addEventListener("click", event => {
+function addNavEventListeners () {
+    document.querySelectorAll("nav a").forEach(navLink => {
+    navLink.addEventListenerAll("click", event => {
         event.preventDefault();
-        let page = event.target.textContent;
-        render(state[page]);
+        render(state[event.target.textContent]);
+        // it could have been this
+        // let selectedPage = event.target.textContent;
+        // let pieceOfState = state[selectedPage]
+        // render(pieceOfState);
     });
 });
 }
 
 
+//menu toggle to bars icon in nav bar
+document.querySelector(".fa-bars").addEventListener("click", () => {
+    document.querySelector("nav > ul").classList.toggle("hidden--mobile");
+});
+
+
+
+// contact form script
 <script>
     function submitForm() {
     document.contact-form.submit();
@@ -35,6 +47,7 @@ function addNavListeners () {
 }
 </script>
 
+// request form functions and script
 function submitForm() {
     var·frm = document.getElementsByName("request-form")[0];
     frm.submit(); 

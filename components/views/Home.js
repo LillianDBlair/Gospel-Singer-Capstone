@@ -2,9 +2,7 @@ export default () => `
 <div id="container">
     <div id="main">
 
-      <main>
-
-                <p class="center" style="font-size:20px"><b>Song's I Sing</b></p>
+          <p class="center" style="font-size:20px"><b>Song's I Sing</b></p>
 
               <div id="main-content" style="text-align: center;">
 
@@ -40,8 +38,7 @@ export default () => `
 
             </div>
           </div>
-      </main>
-
+      
     </div>
   </div>
 

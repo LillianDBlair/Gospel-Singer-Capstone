@@ -3,17 +3,30 @@ import { Header, Nav, Main, Footer } from "./components";
 import * as state from "./store";
 
 
-function render(st) {
-    const rootDiv = document.querySelector("#root");
-    rootDiv.innerHTML = `
+const render = (st) => {
+    document.querySelector("#root").innerHTML = `
     ${Header()}
     ${Nav()}
     ${Main(st)}
     ${Footer()}
     `;
-}
+    
+    addNavListeners();
+};
 
 render(state.Home);
+
+//nav links event listener
+function addNavListeners () {
+    document.querySelectorAll("nav a").forEach(el => {
+    el.addEventListener("click", event => {
+        event.preventDefault();
+        let page = event.target.textContent;
+        render(state[page]);
+    });
+});
+}
+
 
 <script>
     function submitForm() {

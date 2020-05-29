@@ -1,4 +1,4 @@
 export default {
-    header: "Listen to Me Sing"
+    header: "Listen to Me Sing",
     view: "Media"
 };

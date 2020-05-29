@@ -5,4 +5,4 @@ export default () => `
   <a href="https://www.instagram.com/lillianblair2000/" class="fa fa-instagram"></a>
   <a href="https://github.com/LillianDBlair/Gospel-Singer-Capstone" class="fa fa-github"></a>
 </footer>
-`
+`;

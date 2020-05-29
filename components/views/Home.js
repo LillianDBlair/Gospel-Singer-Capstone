@@ -2,7 +2,7 @@ export default () => `
 <div id="container">
     <div id="main">
 
-          <p class="center" style="font-size:20px"><b>Song's I Sing</b></p>
+          <p class="center" style="font-size:30px"><b>Song's I Love to Sing</b></p>
 
               <div id="main-content" style="text-align: center;">
 
@@ -22,44 +22,36 @@ export default () => `
                   <li>-Our God Is An Awesome God</li>
                   <li>-Let Jesus Fill This Place</li>
                   <li>-Overflows</li>
+                  <li>-Pure Love</li>
                 </ul>
 
                 <ul>
                   <li>-Glory To Your Name</li>
                   <li>-Great Is Thy Faithfulness</li>
                   <li>-A Wonderful Change</li>
+                  <li>-My Help</li>
                   <li>-Thank You Lord For All You Done For Me</li>
                   <li>-We Are Not Ashamed</li>
+                  <li>-Jesus, Jesus, Jesus</li>
                   <li>-Jesus Your the Center of My Joy</li>
+                  <li>-For Your Glory</li>
+                  <li>-How Great Is Our God</li>
+                  <li>-Lord I Lift Your Name On High</li>
+                  <li>-Thou Carest Lord</li>
+                  <li>-Fill My Cup Lord</li>
+                  <li>-More Than Enough</li>
+                  <li>-Take Me To The King</li>
+                  <li>-Praise Is What I Do</>
+                  <li>-Lord Prepare Me To Be A Sanctuary</li>
                   <li>-Many More.....</li>
                 </ul>
 
               </div>
-
+              
             </div>
           </div>
-      
+
     </div>
   </div>
-
-  <section id="Media&Form">
-      <div>
-
-        <div class="Sameline"><div id="media">
-
-            <p>Video & Audio</p>
-            <a href="./media.html">Media <i class='fas fa-headphones' style='font-size:36px'></i></a>
-
-          </div>
-        </div>
-
-        <div class="Sameline"><div id="forms">
-
-            <p>Request Form</p>
-            <a href="./forms.html">Form <i class='fas fa-align-left' style='font-size:36px'></i></a>
-
-          </div>
-        </div>
-      </div>
-  </section>
-`
+      
+  `;

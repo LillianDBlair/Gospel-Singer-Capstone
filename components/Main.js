@@ -4,4 +4,4 @@ export default st => `
 <main>
     ${views[st.view]()}
 </main>
-`
+`;

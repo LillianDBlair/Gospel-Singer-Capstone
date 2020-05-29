@@ -5,7 +5,7 @@
 
 nav > ul {
   display: flex;
-  font-size: 14px;
+  font-size: 30px;
   justify-content: space-evenly;
   padding: 0 0;
 }
@@ -13,45 +13,38 @@ nav > ul {
 nav > ul > li {
   display: inline-block;
   text-decoration: none;
-  border: 1px solid;
-  padding: .5rem .5rem;
-  border-radius: 50px;
+  padding: .9rem .9rem;
+  p
 }
 
-html, body {
+html,
+body {
   height: 15%;
   line-height: 2;
-  font-family: 'Prata', serif;
-  font-size: 1.4em;
-  }
-
-  #container {
-    min-height: 5%;
+  font-family: "Prata", serif;
+  font-size: 2.1em;
 }
 
-  ul{
-    list-style-type: none;
-  }
+#container {
+  min-height: 5%;
+}
 
-  ul li{
-    float: left;
-    margin: 10px;
-  }
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  float: left;
+  margin: 10px;
+}
 
 #main {
   overflow: auto;
-  padding-bottom: 15px;
+  padding-bottom: 250px;
 }
 
-.Sameline {
-  display: inline-block;
-  border: 2px solid black;
-  padding:2px;
-  margin:25px;
-  }
-
 #media {
-  font-size:larger;
+  font-size: larger;
 }
 
 #forms {
@@ -60,28 +53,27 @@ html, body {
 
 #footer {
   background-color: #5d3056;
-  padding: .9em;
+  padding: 0.9em;
   position: relative;
-  height: 70px;
-  margin-top: 10px;
-  text-align: left                                            ;
+  height: 95px;
+
+  text-align: left;
   clear: both;
 }
 
 body {
   background-color: #7f607c;
   text-align: center;
-  }
+}
 
-  h4 {
-    color: black;
-    text-align: center;
-    font-family: 'Great Vibes', cursive;
+h4 {
+  color: black;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+}
 
-    }
-
-div{
-  font-size: .8em;
+div {
+  font-size: 0.8em;
 }
 
 img {
@@ -92,19 +84,19 @@ img {
 
 .fa {
   padding: 10px;
-  font-size: 20px;
-  width: 18px;
+  font-size: 30px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
   margin: 1px 2px;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 
@@ -123,6 +115,7 @@ img {
 }
 
 form {
+  padding-bottom: 10em;
   font-size: 20px;
 }
 
@@ -131,11 +124,36 @@ h5 {
 }
 
 video {
-  display: flex; on flex
-  flex-direction: row; on
-  align-items: stretch; on
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
 
-form {  
-  padding-bottom: 10em;
+@media (max-width: 549px) {
+  .hidden--mobile {
+    display: none !important;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  nav > i {
+    padding: 1rem;
+    font-size: 2em;
+  }
+
+  nav > ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0;
+  }
+
+  nav > ul > li {
+    padding: 0.5rem;
+    list-style-type: none;
+  }
 }

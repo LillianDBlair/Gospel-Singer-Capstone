@@ -1,9 +1,9 @@
 export default () => `
 <h3>Contact Form</h3>
 
-    <p class="center" style="font-size: 20px;">Here you can put your information</p>
-    <p class="center" style="font-size: 20px;">if you would like to know where I will be singing next</p>
-    <p class="center" style="font-size: 20px;">or if you would like to leave a prayer request.</p>
+    <p class="center" style="font-size: 30px;">You can put your information here,</p>
+    <p class="center" style="font-size: 30px;">if you would like to know where I will be singing next</p>
+    <p class="center" style="font-size: 30px;">or if you would like to leave a prayer request.</p>
 
   
   <form  name="contact-form" action="https://formspree.io/xlepjepg" method="POST" action="/action_page.php">

@@ -46,6 +46,13 @@ export default () => `
     <li><a href="https://drive.google.com/open?id=1WUIj0NOJuN0HgbR4lCAPfO4vZ9Yg7Mu8" style="font-size: 20px;">We Are Not Ashamed</a></li>
     <li><a href="https://drive.google.com/open?id=1W_XzPs949VI4p2MPNj1Blig9Vxx-Dg3Z" style="font-size: 20px;">Jesus Your the Center of My Joy</a></li>
     <li><a href="https://drive.google.com/open?id=1WmQbxNx3hikRTtK4IGz47U3_h9OukKga" style="font-size: 20px;">My Help</a></li>
-  </ul>
+    <li><a href="https://drive.google.com/open?id=1YpNPEMiMRGKBPsR7e22j7i6LlWlkv2ZX" style="font-size: 20px;">Thou Carest Lord</a></li>
+    <li><a href="https://drive.google.com/open?id=1Ywdgu6wYdQ4gKv78LXgP907mbVlhVn4-" style="font-size: 20px;">Fill My Cup Lord</a></li>
+    <li><a href="https://drive.google.com/open?id=1ZGhez8x-ue1ZnujlDxlUt-luPrMaqA7c" style="font-size: 20px;">More Than Enough</a></li>
+    <li><a href="https://drive.google.com/open?id=1ZL4vbNJTwJ_NlPHOz05CXnSnwp5ran64" style="font-size: 20px;">Take Me To The King</a></li>
+    <li><a href="https://drive.google.com/open?id=1ZM0wxxSwkqWTePptXxxWdGIftRFPFOyA" style="font-size: 20px;">Praise Is What I Do</a></li>
+    <li><a href="https://drive.google.com/open?id=1ZOQHh_AS2Sq72pn-TMF9wJSZ9mxGHbm9" style="font-size: 20px;">Jesus, Jesus, Jesus</a></li>
+    <li><a href="https://drive.google.com/open?id=1ZXf-mOe28GHv3njlvk3tonWv3LlUeBi_" style="font-size: 20px;">Lord Prepare Me To Be A Sanctuary</a></li>
+    </ul>
 </div>
-`
+`;

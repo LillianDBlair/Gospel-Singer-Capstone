@@ -18,7 +18,7 @@ render(state.Home);
 
 //nav links event listener
 function addNavEventListeners() {
-  document.querySelectorAll("nav a").forEach((navLink) => {
+  document.querySelectorAll("nav a").forEach(navLink => {
     navLink.addEventListener("click", event => {
       event.preventDefault();
       render(state[event.target.textContent]);
@@ -31,15 +31,15 @@ function addNavEventListeners() {
 }
 
 function addNavToggle() {
-// add menu toggle to bars icon ar in nav bar
-    document.querySelector(".fa-bars").addEventListener("click", () => {
+  // add menu toggle to bars icon ar in nav bar
+  document.querySelector(".fa-bars").addEventListener("click", () => {
     document.querySelector("nav > ul").classList.toggle("hidden--mobile");
-});
+  });
 }
 
 function listenForFormEvent() {
-  document.querySelectorAll("form").forEach(form =>
-    form.addEventListener("submit", event => {
+  document.querySelectorAll("form").forEach((form) =>
+    form.addEventListener("submit", (event) => {
       event.preventDefault();
       console.log(event.target);
     })

@@ -23,4 +23,4 @@ export default () => `
     <input type="button" value="Submit" id="btnsubmit" onclick="submitForm()"> 
 </div>
   </form>
-`
+`;

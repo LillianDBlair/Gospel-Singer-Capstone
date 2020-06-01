@@ -2,6 +2,18 @@ import { Header, Nav, Main, Footer } from "./components";
 
 import * as state from "./store";
 
+import Navigo from "navigo";
+import { capitalize } from "lodash";
+
+const router = new Navigo(window.location.origin);
+
+router
+  .on({
+    ":page": (params) => render(state[capitalize(params.page)]),
+    "/": () => render(state.Home)
+  })
+  .resolve();
+
 const render = (st = state.Home) => {
   document.querySelector("#root").innerHTML = `
     ${Header(st)}
@@ -9,13 +21,17 @@ const render = (st = state.Home) => {
     ${Main(st)}
     ${Footer()}
     `;
-  console.log("render");
+
+  router.updatePageLinks();
+
+  
   addNavEventListeners();
   addNavToggle();
 };
 
 render(state.Home);
 
+<<<<<<< HEAD
 //nav links event listener
 function addNavEventListeners() {
   document.querySelectorAll("nav a").forEach(navLink => {
@@ -29,6 +45,8 @@ function addNavEventListeners() {
     });
   });
 }
+=======
+>>>>>>> 9b92b31e8bd41e2ed3f301e90a67b58e7b72c9fb
 
 function addNavToggle() {
   // add menu toggle to bars icon ar in nav bar

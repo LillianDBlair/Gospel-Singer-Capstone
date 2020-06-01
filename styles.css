@@ -91,6 +91,10 @@ img {
   margin: 1px 2px;
 }
 
+.fa-bars {
+  display: none;
+}
+
 .fa:hover {
   opacity: 0.7;
 }
@@ -155,5 +159,9 @@ video {
   nav > ul > li {
     padding: 0.5rem;
     list-style-type: none;
+  }
+
+  .fa-bars {
+    display: block;
   }
 }

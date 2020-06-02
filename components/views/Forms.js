@@ -9,7 +9,7 @@ export default () => `
     <p><h3>Song Selection Information</h3></p>
     <textarea rows="4" cols="50" placeholder="Put # of Songs & Name of Songs Here..."></textarea><br>
   <div style="text-align:center">  
-  <input type="button" value="Submit"> 
+  <input type="submit" value="Submit"> 
   </div>
 
   </form>

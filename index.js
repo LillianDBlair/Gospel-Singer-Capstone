@@ -2,6 +2,15 @@ import { Header, Nav, Main, Footer } from "./components";
 
 import * as state from "./store";
 
+import Navigo from "navigo";
+import { capitalize } from "lodash";
+
+const router = new Navigo(window.location.origin);
+
+router.on({
+  ":page": params => render(state[capitalize(params.page)]),
+  "/": () => render(state.Home)
+}).resolve;
 
 const render = (st = state.Home) => {
   document.querySelector("#root").innerHTML = `
@@ -11,9 +20,8 @@ const render = (st = state.Home) => {
     ${Footer()}
     `;
 
+  router.updatePageLinks();
 
-
-  
   addNavEventListeners();
   addNavToggle();
 };
@@ -42,11 +50,11 @@ function addNavToggle() {
 }
 
 function listenForFormEvent() {
-  document.querySelectorAll("form").forEach(form =>
-    form.addEventListener("submit", event => {
+  document.querySelectorAll("form").forEach((form) =>
+    form.addEventListener("submit", (event) => {
       event.preventDefault();
       console.log(event.target);
     })
   );
 }
-listenForFormEvent()
+listenForFormEvent();

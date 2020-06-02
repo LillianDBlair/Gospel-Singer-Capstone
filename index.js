@@ -49,3 +49,4 @@ function listenForFormEvent() {
     })
   );
 }
+listenForFormEvent()

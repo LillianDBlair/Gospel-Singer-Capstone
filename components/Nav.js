@@ -5,8 +5,8 @@ export default links => `
     ${links.reduce(
       (html, link) =>
         html +
-        `<li><a href="/${link.title !== "Home" ? link.title : ""}" title="${
-          link.title
+        `<li><a href="/${link.name !== "Home" ? link.name : ""}" name="${
+          link.name
         }" data-navigo>${link.text}</a></li>`,
       ``
     )}

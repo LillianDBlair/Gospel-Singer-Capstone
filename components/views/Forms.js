@@ -1,7 +1,7 @@
 export default () => `
 <h5>Request Form</h5>
 
-  <form title="request-form" action="https://formspree.io/xyyneyne" method="POST" action="/action_page.php">
+  <form name="request-form" action="https://formspree.io/xyyneyne" method="POST" action="/action_page.php">
     <p><h3>First & Last Name</h3></p>
     <input type="name" id="name" name="name" placeholder="Enter Name Here" cols="50"><br>
     <p><h3>Event Information</h3></p>

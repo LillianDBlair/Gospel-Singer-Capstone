@@ -21,7 +21,7 @@ const render = (st = state.Home) => {
     `;
 
   router.updatePageLinks();
-
+  
   addNavEventListeners();
   addNavToggle();
 };
@@ -50,8 +50,8 @@ function addNavToggle() {
 }
 
 function listenForFormEvent() {
-  document.querySelectorAll("form").forEach((form) =>
-    form.addEventListener("submit", (event) => {
+  document.querySelectorAll("form").forEach(form =>
+    form.addEventListener("submit", event => {
       event.preventDefault();
       console.log(event.target);
     })

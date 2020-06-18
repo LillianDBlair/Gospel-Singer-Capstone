@@ -45,15 +45,12 @@ export default () => `
                   <li>-Lord Prepare Me To Be A Sanctuary</li>
                   <li>-Many More.....</li>
                 </ul>
-
-                <p class="center"><h4>To Hear These Songs Click on the Media Link Above!</h4></p>
-
               </div>
-              
             </div>
           </div>
 
     </div>
   </div>
-      
+  
+      <p class="center">To Hear These Click on Media Link Above!<h4></h4></p>
   `;

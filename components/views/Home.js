@@ -48,9 +48,9 @@ export default () => `
               </div>
             </div>
           </div>
-
+          <p class="center">To Hear These Click on Media Link Above!<h4></h4></p>
     </div>
   </div>
-  
-      <p class="center">To Hear These Click on Media Link Above!<h4></h4></p>
+
+      
   `;

@@ -1,3 +1,4 @@
+console.log("Request Form");
 export default () => `
 <h5>Request Form</h5>
 

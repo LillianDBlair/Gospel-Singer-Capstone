@@ -7,12 +7,8 @@ import { capitalize } from "lodash";
 
 const router = new Navigo(window.location.origin);
 
-router.on({
-  ":page": params => render(state[capitalize(params.page)]),
-  "/": () => render(state.Home)
-}).resolve;
-
 const render = (st = state.Home) => {
+  console.log(st);
   document.querySelector("#root").innerHTML = `
     ${Header(st)}
     ${Nav(state.Links)}
@@ -21,26 +17,20 @@ const render = (st = state.Home) => {
     `;
 
   router.updatePageLinks();
-  
-  addNavEventListeners();
   addNavToggle();
 };
 
-render(state.Home);
+router
+  .on({
+    ":page": params => {
+      console.log(params.page);
+      render(state[capitalize(params.page)]);
+    },
+    "/": () => render(state.Home),
+  })
+  .resolve();
 
-//nav links event listener
-function addNavEventListeners() {
-  document.querySelectorAll("nav a").forEach(navLink => {
-    navLink.addEventListener("click", event => {
-      event.preventDefault();
-      render(state[event.target.textContent]);
-      // it could have been this
-      // let selectedPage = event.target.textContent;
-      // let pieceOfState = state[selectedPage]
-      // render(pieceOfState);
-    });
-  });
-}
+render(state.Home);
 
 function addNavToggle() {
   // add menu toggle to bars icon ar in nav bar
@@ -50,8 +40,8 @@ function addNavToggle() {
 }
 
 function listenForFormEvent() {
-  document.querySelectorAll("form").forEach(form =>
-    form.addEventListener("submit", event => {
+  document.querySelectorAll("form").forEach((form) =>
+    form.addEventListener("submit", (event) => {
       event.preventDefault();
       console.log(event.target);
     })

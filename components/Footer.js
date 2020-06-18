@@ -1,5 +1,5 @@
 export default () => `
-<footer id="footer"><p style="font-size: 50%;">&copy;Capstone Project 2020</p>
+<footer id="footer"><p style="font-size: 50%;">&copy;Lillian D. Blair 2020</p>
   <a href="https://twitter.com/lilliand_2000" class="fa fa-twitter"></a>
   <a href="www.linkedin.com/in/lilliandblair" class="fa fa-linkedin"></a>
   <a href="https://www.instagram.com/lillianblair2000/?hl=en" class="fa fa-instagram"></a>

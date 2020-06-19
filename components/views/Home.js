@@ -2,53 +2,44 @@ export default () => `
 <div id="container">
     <div id="main">
 
-          <p class="center" style="font-size:30px"><b>Song's I Love to Sing</b></p>
+          <p class="center" style="fontsize:30px"><b>Song's I Love to Sing</b></p>
 
-              <div id="main-content" style="text-align: center;">
-
-                <ul>
-                  <li>-You Can Make It</li>
-                  <li>-There Is None Like You</li>
-                  <li>-Be Cause He Lives</li>
-                  <li>-Because of Who You Are</li>
-                  <li>-We Exalt Thee</li>
-                  <li>-Trust Me</li>
-                </ul>
-
-                <ul>
-                  <li>-I Won't Complain</li>
-                  <li>-I Command My Soul Bless the Lord</li>
-                  <li>-Sometimes You Have to Encourage Yourself</li>
-                  <li>-Our God Is An Awesome God</li>
-                  <li>-Let Jesus Fill This Place</li>
-                  <li>-Overflows</li>
-                  <li>-Pure Love</li>
-                </ul>
-
-                <ul>
-                  <li>-Glory To Your Name</li>
-                  <li>-Great Is Thy Faithfulness</li>
-                  <li>-A Wonderful Change</li>
-                  <li>-My Help</li>
-                  <li>-Thank You Lord For All You Done For Me</li>
-                  <li>-We Are Not Ashamed</li>
-                  <li>-Jesus, Jesus, Jesus</li>
-                  <li>-Jesus Your the Center of My Joy</li>
-                  <li>-For Your Glory</li>
-                  <li>-How Great Is Our God</li>
-                  <li>-Lord I Lift Your Name On High</li>
-                  <li>-Thou Carest Lord</li>
-                  <li>-Fill My Cup Lord</li>
-                  <li>-More Than Enough</li>
-                  <li>-Take Me To The King</li>
-                  <li>-Praise Is What I Do</>
-                  <li>-Lord Prepare Me To Be A Sanctuary</li>
-                  <li>-Many More.....</li>
-                </ul>
+              <div class="flex">
+                  <p>You Can Make It</p>
+                  <p>There Is None like You</p>
+                  <p>Be Cause He lives</p>
+                  <p>Because of Who You Are</p>
+                  <p>We Exalt Thee</p>
+                  <p>Trust Me</p>
+                  <p>I Won't Complain</p>
+                  <p>I Command My Soul Bless the Lord</p>
+                  <p>Sometimes You Have to Encourage Yourself</p>
+                  <p>Our God Is An Awesome God</p>
+                  <p>Let Jesus Fill This Place</p>
+                  <p>Overflows</p>
+                  <p>Pure Love</p>
+                  <p>Glory To Your Name</p>
+                  <p>Great Is Thy Faithfulness</p>
+                  <p>A Wonderful Change</p>
+                  <p>My Help</p>
+                  <p>Thank You Lord For All You Done For Me</p>
+                  <p>We Are Not Ashamed</p>
+                  <p>Jesus, Jesus, Jesus</p>
+                  <p>Jesus Your the Center of My Joy</p>
+                  <p>For Your Glory</p>
+                  <p>How Great Is Our God</p>
+                  <p>Lord I Lift Your Name On High</p>
+                  <p>Thou Carest Lord</p>
+                  <p>Fill My Cup Lord</p>
+                  <p>More Than Enough</p>
+                  <p>Take Me To The King</p>
+                  <p>Praise Is What I Do</>
+                  <p>Lord Prepare Me To Be A Sanctuary</p>
+                  <p>Many More.....</p>
               </div>
             </div>
           </div>
-          <p class="center">To Hear These Click on Media Link Above!<h4></h4></p>
+          <p>To Hear These Click on Media pnk Above!</p>
     </div>
   </div>
 

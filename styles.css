@@ -154,7 +154,7 @@ video {
   justify-content: center;
   flex-flow: column;
 }
-.flex > div{
+.flex > div {
   margin-bottom: 10px;
 }
 .flex > div > a > p:hover {

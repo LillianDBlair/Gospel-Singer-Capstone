@@ -39,7 +39,7 @@ export default () => `
               </div>
             </div>
           </div>
-          <p>To Hear These Click on Media pnk Above!</p>
+          <p>To Hear These Click on Media Link Above!</p>
     </div>
   </div>
 

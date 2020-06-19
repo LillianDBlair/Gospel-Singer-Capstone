@@ -141,7 +141,7 @@ video {
     display: block;
   }
 }
-.flex > p, .flex > div > a > p {
+.flex > div > a > p {
   color: #5d3056;
   height: 100%;
   font-size: 1.2em;
@@ -154,7 +154,7 @@ video {
   justify-content: center;
   flex-flow: column;
 }
-.flex > div {
+.flex > div{
   margin-bottom: 10px;
 }
 .flex > div > a > p:hover {
@@ -170,4 +170,16 @@ video {
   justify-content: space-evenly;
   flex-flow: row wrap;
   padding: 5px;
+}
+.flex > div > p {
+  height: 100%;
+  font-size: 1.2em;
+  border-radius: 5px;
+  width: 300px;
+  background-color: #dbd3d8;
+  box-shadow: 0px 0px 2px 2px #dbd3d8;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
 }

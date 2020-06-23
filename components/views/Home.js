@@ -1,7 +1,7 @@
 export default () => `
 <div id="container">
     <div id="main">
-      
+        <p class="center" style="fontsize:50px"><b>Listen to Me Sing, Ask Me to Sing for Event, & Ask to be Apart of My Next Event</b></p>
           <p class="center" style="fontsize:30px"><b>Song's I Love to Sing</b></p>
             
               <div id="main-content" style="text-align: center">

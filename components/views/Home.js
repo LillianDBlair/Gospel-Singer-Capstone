@@ -1,8 +1,8 @@
 export default () => `
 <div id="container">
     <div id="main">
-        <p class="center" style="fontsize:50px" style="background-color:grey;"><b>Listen to Me Sing, Request Me for an Event, or Find out where I'm Singing Next</b></p>
-          <p class="center" style="fontsize:30px"><b>Song's I Love to Sing</b></p>
+        <p class="center" style="fontsize:50px" style="background-color:grey;"><b>Listen to Me Sing, Request Me for an Event, or Find out Where I'm Singing Next</b></p>
+          <p class="center" style="fontsize:30px"><b>Songs I Love to Sing</b></p>
             
               <div id="main-content" style="text-align: center">
                 <ul>

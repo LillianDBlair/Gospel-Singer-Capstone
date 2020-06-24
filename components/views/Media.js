@@ -22,7 +22,7 @@ export default () => `
   <div><a href="https://drive.google.com/open?id=1U0zdweEOmeF9dfKVdqsPMWszXAITqDnU" style="font-size: 20px;"><p>You Can Make It</p></a></div>
   <div><a href="https://drive.google.com/open?id=1U3Eird4NrP7Z22h_qjaSI71ba_lax3Li" style="font-size: 20px;"><p>There Is None Like You</p></a></div>
   <div><a href="https://drive.google.com/open?id=1VUmVwE2USgvDxN06ybPBj4goasVaI5bJ" style="font-size: 20px;"><p>Because He Lives</p></a></div>
-  <div><a href="https://drive.google.com/open?id=1UCfkY_okhWun9cOCiZHk4Y-ojUG-l1KH" style="font-size: 20px;"><p>Be Cause of Who You Are</p></a></div>
+  <div><a href="https://drive.google.com/open?id=1UCfkY_okhWun9cOCiZHk4Y-ojUG-l1KH" style="font-size: 20px;"><p>Because of Who You Are</p></a></div>
   <div><a href="https://drive.google.com/open?id=1UGaglRxGqHkHXwbM9ymoZOaJ5b7x19xu" style="font-size: 20px;"><p>We Exalt Thee</p></a></div>
   <div><a href="https://drive.google.com/open?id=1VZFIAtgjbLSUVSYh0kqIdWOTDUYTCKsI" style="font-size: 20px;"><p>Trust Me</p></a></div>
   <div><a href="https://drive.google.com/open?id=1VbNLd24EcORTtVOB9noJebAcRQkN6sW0" style="font-size: 20px;"><p>I Won't Complain</p></a></div>
